@@ -1,0 +1,95 @@
+tfidf: Test Error = 0.830379746835443
+tfidf: Learned classification tree model: 
+DecisionTreeClassificationModel (uid=DecisionTreeClassifier_49919c7cb2431d055d46) of depth 5 with 59 nodes
+  If (feature 207 <= 2.2158683536023047)
+   If (feature 546 <= 0.0)
+    If (feature 711 <= 0.0)
+     If (feature 81 <= 0.0)
+      If (feature 798 <= 1.094555130165843)
+       Predict: 10.0
+      Else (feature 798 > 1.094555130165843)
+       Predict: 9.0
+     Else (feature 81 > 0.0)
+      If (feature 834 <= 0.0)
+       Predict: 4.0
+      Else (feature 834 > 0.0)
+       Predict: 4.0
+    Else (feature 711 > 0.0)
+     If (feature 425 <= 0.0)
+      If (feature 118 <= 0.0)
+       Predict: 12.0
+      Else (feature 118 > 0.0)
+       Predict: 0.0
+     Else (feature 425 > 0.0)
+      If (feature 916 <= 2.707166808818613)
+       Predict: 12.0
+      Else (feature 916 > 2.707166808818613)
+       Predict: 16.0
+   Else (feature 546 > 0.0)
+    If (feature 784 <= 0.0)
+     If (feature 736 <= 1.6799153775888631)
+      If (feature 650 <= 0.0)
+       Predict: 2.0
+      Else (feature 650 > 0.0)
+       Predict: 6.0
+     Else (feature 736 > 1.6799153775888631)
+      If (feature 522 <= 0.0)
+       Predict: 1.0
+      Else (feature 522 > 0.0)
+       Predict: 1.0
+    Else (feature 784 > 0.0)
+     If (feature 117 <= 0.0)
+      If (feature 658 <= 0.0)
+       Predict: 2.0
+      Else (feature 658 > 0.0)
+       Predict: 16.0
+     Else (feature 117 > 0.0)
+      If (feature 6 <= 15.168715491165646)
+       Predict: 8.0
+      Else (feature 6 > 15.168715491165646)
+       Predict: 9.0
+  Else (feature 207 > 2.2158683536023047)
+   If (feature 108 <= 4.791200148101356)
+    If (feature 207 <= 6.647605060806914)
+     If (feature 624 <= 0.0)
+      If (feature 841 <= 0.0)
+       Predict: 7.0
+      Else (feature 841 > 0.0)
+       Predict: 7.0
+     Else (feature 624 > 0.0)
+      If (feature 306 <= 0.0)
+       Predict: 7.0
+      Else (feature 306 > 0.0)
+       Predict: 5.0
+    Else (feature 207 > 6.647605060806914)
+     If (feature 157 <= 18.69461843451897)
+      If (feature 418 <= 11.699370600534774)
+       Predict: 7.0
+      Else (feature 418 > 11.699370600534774)
+       Predict: 0.0
+     Else (feature 157 > 18.69461843451897)
+      If (feature 10 <= 0.0)
+       Predict: 6.0
+      Else (feature 10 > 0.0)
+       Predict: 15.0
+   Else (feature 108 > 4.791200148101356)
+    If (feature 188 <= 2.731130116109842)
+     If (feature 389 <= 2.112779459885142)
+      If (feature 537 <= 0.0)
+       Predict: 9.0
+      Else (feature 537 > 0.0)
+       Predict: 9.0
+     Else (feature 389 > 2.112779459885142)
+      Predict: 4.0
+    Else (feature 188 > 2.731130116109842)
+     If (feature 810 <= 56.02693533339836)
+      If (feature 68 <= 9.017843323015327)
+       Predict: 5.0
+      Else (feature 68 > 9.017843323015327)
+       Predict: 13.0
+     Else (feature 810 > 56.02693533339836)
+      Predict: 8.0
+Summary Stats : 
+Precision = 0.16962025316455695 
+Recall = 0.16962025316455695 
+F1 Score = 0.16962025316455695 
